@@ -1,0 +1,168 @@
+{
+  "prepared_on": "2026-10-29",
+  "board_tested": false,
+  "routed": false,
+  "clean_checkout_checks": {
+    "shell_example_syntax": true,
+    "workspace_setup": true,
+    "download_models": true,
+    "model_hashes": true,
+    "cpu_quick_start": true,
+    "download_reference": true,
+    "reference_generation": true,
+    "native_hls_build": true,
+    "write_benchmark": true,
+    "write_reference_dump": true,
+    "write_hls_testbench": true,
+    "benchmark_build": true,
+    "reference_tensor_compare": true,
+    "arm_crosscompile": true,
+    "hls_synthesis": true,
+    "hls_csim": true
+  },
+  "local_regression": {
+    "board_tested": false,
+    "scope": "local C++ and HLS simulation",
+    "generation": [
+      {
+        "executable": "matmulfree",
+        "prompt": "Once upon a time",
+        "temperature": 0,
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree_sim",
+        "prompt": "Once upon a time",
+        "temperature": 0,
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree",
+        "prompt": "The little girl",
+        "temperature": 0,
+        "seed": 123,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree_sim",
+        "prompt": "The little girl",
+        "temperature": 0,
+        "seed": 123,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree",
+        "prompt": "A small dragon",
+        "temperature": 0,
+        "seed": 7,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree_sim",
+        "prompt": "A small dragon",
+        "temperature": 0,
+        "seed": 7,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree",
+        "prompt": "Once upon a time",
+        "temperature": 0.8,
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree_sim",
+        "prompt": "Once upon a time",
+        "temperature": 0.8,
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree",
+        "prompt": "",
+        "temperature": 0,
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree_sim",
+        "prompt": "",
+        "temperature": 0,
+        "seed": 42,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree",
+        "prompt": "Hello, \u4e16\u754c!",
+        "temperature": 0.8,
+        "seed": 123,
+        "exact": true
+      },
+      {
+        "executable": "matmulfree_sim",
+        "prompt": "Hello, \u4e16\u754c!",
+        "temperature": 0.8,
+        "seed": 123,
+        "exact": true
+      }
+    ],
+    "tensor_dumps": {
+      "matmulfree_bench": {
+        "tokens": 512,
+        "repeats": 2,
+        "bit_exact": true,
+        "reset_replay_exact": true,
+        "sha256": "340834932482fe63bac2fde9aefa1b2757d2e9e6e4d9fd5fb00135e6ff42c0f6"
+      },
+      "matmulfree_sim_bench": {
+        "tokens": 512,
+        "repeats": 2,
+        "bit_exact": true,
+        "reset_replay_exact": true,
+        "sha256": "340834932482fe63bac2fde9aefa1b2757d2e9e6e4d9fd5fb00135e6ff42c0f6"
+      }
+    },
+    "chat": {
+      "steps": 128,
+      "exact": true,
+      "executables": [
+        "matmulfree",
+        "matmulfree_sim"
+      ]
+    },
+    "passed": true
+  },
+  "hls_csim": {
+    "tokens": 512,
+    "max_absolute_error": 0
+  },
+  "hls_synthesis": {
+    "resources": {
+      "BRAM_18K": 177,
+      "DSP": 217,
+      "FF": 32896,
+      "LUT": 43553,
+      "URAM": 18
+    },
+    "report_sha256": "052982a2c6b4a1881ce3360beb894956aa376ca0c8063d9bbaf40ec6e67cfbac"
+  },
+  "source_sha256": {
+    "src/context.cpp": "9d59395058815ba4617b08515814c023b765c16cf181a81f51d1965254a835c2",
+    "src/context.hpp": "b2f754c66bec75e35890cee9c680cdedcbc7c1a01c2e3cf18d82be41573d41e2",
+    "src/decode.cpp": "2e8d0022d2e01490616a34abffed5e71e76f68b271bf784b32a2140bae5f8444",
+    "src/decode.hpp": "b4846074a9ac8dc4e23d13fb0c999b95674645ad9c299625709aaa879b26259d",
+    "src/main.cpp": "8570fb7afee3e518878f56d856eee36f6dd03ae4050c82f5213feeef15fc31ae",
+    "src/tensor.hpp": "357dfb2cc1e5177e7bf2e8039f25ebd38a411299c8073b4858d5ad1324256777",
+    "src/vocab.cpp": "508fd2954cf2f7848297926f46e3fb9bc1ed70cfd9fd1e48ba3ae9ff19e40482",
+    "src/vocab.hpp": "98590755c0a67bb751c84d903f9dcd0d59bffbf68993d06d229c605db7e905b6",
+    "src/weight.cpp": "cfd2acabdf6cd0befd5f0a946d954091d2c6309454c7c3892ed7cbb046775d9a",
+    "src/weight.hpp": "adb515d7bfa85356c67d03bc90faa91d473f075872eeb5898b119daa61810f28"
+  },
+  "build_files_sha256": {
+    "CMakeLists.txt": "a94ea52c8041cb5b5e33f98438552dd903dfab50ad2ea6eaf17ebe579226d3cd"
+  },
+  "note": "No public-source route, board test, new throughput measurement or new power measurement was performed."
+}

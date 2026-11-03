@@ -1,0 +1,14 @@
+---
+Language: Cpp
+BasedOnStyle: Google
+IndentWidth: 2
+ContinuationIndentWidth: 4
+ColumnLimit: 80
+PointerAlignment: Left
+NamespaceIndentation: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+SortIncludes: CaseSensitive
+FixNamespaceComments: true
+...

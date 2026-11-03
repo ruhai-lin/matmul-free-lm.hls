@@ -1,0 +1,27 @@
+{
+  "name": "stories1M",
+  "repository": "ruhai-lin/matmul-free-lm.c",
+  "revision": "ac7a1b8f9c3018bc2ed0df08d4d438fdd0e0cff3",
+  "format": "MMFL version 1, little-endian",
+  "shape": {
+    "dim": 128,
+    "hidden_dim": 272,
+    "layers": 5,
+    "vocab_size": 512,
+    "seq_len": 512
+  },
+  "files": [
+    {
+      "path": "stories1M/stories1M.bin",
+      "destination": "model/stories1M.bin",
+      "bytes": 1207260,
+      "sha256": "97bee309d5dcc3c94b2e6f3ca1ae4f9e98fdda55e3ec13e35191ad9eea6ca95c"
+    },
+    {
+      "path": "stories1M/tok512.bin",
+      "destination": "model/tok512.bin",
+      "bytes": 6227,
+      "sha256": "037cb335abb25d1fa9e8ecae30ed2a3a8ace9302862ebcdc05d51a6bbb10c312"
+    }
+  ]
+}

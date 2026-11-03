@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-23",
+  "scope": "historical pre-reorganization implementation",
+  "current_source_board_tested": false,
+  "model_sha256": "97bee309d5dcc3c94b2e6f3ca1ae4f9e98fdda55e3ec13e35191ad9eea6ca95c",
+  "summary": {
+    "measurement_boundary": "INA260 VCC_SOM module input; excludes carrier and wall supply",
+    "fixed": {
+      "cpu": {
+        "runs": 7,
+        "metrics": {
+          "tokens_per_second": {
+            "median": 768.9805442499002,
+            "min": 767.8973935981625,
+            "max": 771.3979469919908
+          },
+          "SOM_active_W": {
+            "median": 3.502705519652525,
+            "min": 3.4916846544038522,
+            "max": 3.5063995785840922
+          },
+          "SOM_idle_W": {
+            "median": 3.2818500024390764,
+            "min": 3.2796822573834254,
+            "max": 3.288920700480161
+          },
+          "SOM_incremental_W": {
+            "median": 0.21870894839339572,
+            "min": 0.20276395392369118,
+            "max": 0.22404659398171534
+          },
+          "SOM_mJ_per_forward_token": {
+            "median": 4.550105308145781,
+            "min": 4.526437577413082,
+            "max": 4.566234509735785
+          },
+          "SOM_incremental_mJ_per_forward_token": {
+            "median": 0.2848153284758315,
+            "min": 0.26285259730642835,
+            "max": 0.29095733140165403
+          }
+        },
+        "xrt_event_ms_per_token_median": 0.0,
+        "dot_wall_ms_per_token_median": 0.0
+      },
+      "xrt": {
+        "runs": 7,
+        "metrics": {
+          "tokens_per_second": {
+            "median": 1303.830165251034,
+            "min": 1303.6438273537399,
+            "max": 1304.7830330275135
+          },
+          "SOM_active_W": {
+            "median": 3.3744028284307204,
+            "min": 3.369979487295644,
+            "max": 3.3763686584946058
+          },
+          "SOM_idle_W": {
+            "median": 3.2832559498154055,
+            "min": 3.2797467875598567,
+            "max": 3.28431064038781
+          },
+          "SOM_incremental_W": {
+            "median": 0.09235406210473052,
+            "min": 0.08566884690783416,
+            "max": 0.09465916784442285
+          },
+          "SOM_mJ_per_forward_token": {
+            "median": 2.5870877341392773,
+            "min": 2.5827891703007624,
+            "max": 2.5899243015819065
+          },
+          "SOM_incremental_mJ_per_forward_token": {
+            "median": 0.07084239133456827,
+            "min": 0.0656575420888597,
+            "max": 0.0725505533057131
+          }
+        },
+        "xrt_event_ms_per_token_median": 0.6912619450683594,
+        "dot_wall_ms_per_token_median": 0.766971057006836
+      }
+    },
+    "greedy": {
+      "cpu": {
+        "runs": 1,
+        "metrics": {
+          "tokens_per_second": {
+            "median": 769.5668893617662,
+            "min": 769.5668893617662,
+            "max": 769.5668893617662
+          },
+          "SOM_active_W": {
+            "median": 3.4940007513035183,
+            "min": 3.4940007513035183,
+            "max": 3.4940007513035183
+          },
+          "SOM_idle_W": {
+            "median": 3.2858480149657385,
+            "min": 3.2858480149657385,
+            "max": 3.2858480149657385
+          },
+          "SOM_incremental_W": {
+            "median": 0.20815273633777975,
+            "min": 0.20815273633777975,
+            "max": 0.20815273633777975
+          },
+          "SOM_mJ_per_forward_token": {
+            "median": 4.5402171008178875,
+            "min": 4.5402171008178875,
+            "max": 4.5402171008178875
+          },
+          "SOM_incremental_mJ_per_forward_token": {
+            "median": 0.27048036917285984,
+            "min": 0.27048036917285984,
+            "max": 0.27048036917285984
+          }
+        },
+        "xrt_event_ms_per_token_median": 0.0,
+        "dot_wall_ms_per_token_median": 0.0
+      },
+      "xrt": {
+        "runs": 1,
+        "metrics": {
+          "tokens_per_second": {
+            "median": 1295.2111999578597,
+            "min": 1295.2111999578597,
+            "max": 1295.2111999578597
+          },
+          "SOM_active_W": {
+            "median": 3.3825723678936592,
+            "min": 3.3825723678936592,
+            "max": 3.3825723678936592
+          },
+          "SOM_idle_W": {
+            "median": 3.2889253594428767,
+            "min": 3.2889253594428767,
+            "max": 3.2889253594428767
+          },
+          "SOM_incremental_W": {
+            "median": 0.09364700845078255,
+            "min": 0.09364700845078255,
+            "max": 0.09364700845078255
+          },
+          "SOM_mJ_per_forward_token": {
+            "median": 2.6115990720306566,
+            "min": 2.6115990720306566,
+            "max": 2.6115990720306566
+          },
+          "SOM_incremental_mJ_per_forward_token": {
+            "median": 0.07230250051407008,
+            "min": 0.07230250051407008,
+            "max": 0.07230250051407008
+          }
+        },
+        "xrt_event_ms_per_token_median": 0.692518306640625,
+        "dot_wall_ms_per_token_median": 0.77207485546875
+      }
+    }
+  },
+  "hardware": {
+    "target": "KV260 xck26-sfvc784-2LV-c",
+    "tool_version": "2025.2",
+    "frequency_hz": 150000000,
+    "host_launches_per_token": 1,
+    "batch_size": 1,
+    "mvm_output_lanes": 128,
+    "csim_512_max_absolute_error": 0.0,
+    "norm_and_state": "FP32, ordered reductions, no FMA contraction",
+    "nonlinearity_exp": "Arm table/polynomial with FP64 intermediates and FP32 input/output",
+    "projection": "dynamic A8/Wternary with int32 accumulation",
+    "ternary_matrix_entries_per_token": 915456,
+    "post_route_timing": {
+      "WNS_ns": 0.704,
+      "TNS_ns": 0.0,
+      "WHS_ns": 0.01,
+      "THS_ns": 0.0
+    },
+    "full_platform_resources": {
+      "CLB LUTs": 35836.0,
+      "CLB Registers": 39925.0,
+      "Block RAM Tile": 80.0,
+      "RAMB36/FIFO*": 76.0,
+      "RAMB18": 8.0,
+      "URAM": 18.0,
+      "DSPs": 181.0
+    },
+    "vectorless_estimated_device_power": {
+      "Total On-Chip Power (W)": 3.784,
+      "Dynamic (W)": 3.475,
+      "Device Static (W)": 0.309,
+      "PS8": 2.56
+    },
+    "power_estimate_scope": "Device estimate; default vectorless activity and PS8 assumptions; not measured SOM power.",
+    "rtl_transactions": [
+      {
+        "index": 0,
+        "cycles": 350481
+      },
+      {
+        "index": 1,
+        "cycles": 97682
+      },
+      {
+        "index": 2,
+        "cycles": 97059
+      }
+    ],
+    "rtl_scope": "LOAD followed by two whole-token decodes with logits/state output, HLS AXI model, excludes Linux/XRT.",
+    "report_sha256": {
+      "hls_csynth.rpt": "5c806a53c2d14f18aebbac6e2223fe76bee1c9b4c5f2978d374fd14286483079",
+      "rtl_cosim.rpt": "8abef3f6d47e1e175c42d2430e1400e7d054fa78954825bf4c9d99fadd387dac",
+      "rtl_transactions.rpt": "2daaa8c6ba5537ed0e43ba684f5fce32c1f4c711d0a3d9ffc8595e5df300463a",
+      "hls.log": "4317e3b0d1015bd008319d35ba4b206312372d9d3ca7a356eccb8bbd3a871f34",
+      "csim_512.log": "9fb5bb0f6540f436fb39b158d9f1a07fea8b1f454dd9cde752e3cb6eb023cfe2",
+      "rtl.log": "f735e28278a4ccf7994b51a669aeef079aa30477ac2451813cc800602166079a",
+      "vitis_link.log": "7b69a6b75df329af018e8d400052998570cf062049661c1a57f41dce850d0655",
+      "timing_routed.rpt": "6ea20af2728f67bb3b642f3057f6efc7c943b20f94b07eab2be791f629677ff4",
+      "clocks_routed.rpt": "89f5c2b68899edce805f2f4280e043cc269ee624a5aa0d2ce0f0ba07b64ed4f5",
+      "utilization_routed.rpt": "61b4fe3f82ee1b72c79c7311026334aeedde1edb3b5d81686b10a99d4f4a8878",
+      "utilization_hierarchy.rpt": "2076d6fd322fda383896ab9b3a387743f7c6448362c6d931fbc0a28bd576fd10",
+      "power_vectorless_default.rpt": "b51a573bfe10edc78222025aeea649d81594df2908afc4b010aa4968dac964b4",
+      "power_advisory.rpt": "cb2bfad17afcd699c1793af7f6b51f7e3c958663760ca106d48b30961c96d050"
+    },
+    "source_sha256": {
+      "src/mega.cpp": "e71c76d2ba1c9b3c2d69549871c1c5856fc834a5ab7746ea6886b79008305876",
+      "src/mega.hpp": "9e20b0b7b1b7da349ce67680932f69ebf72c2f5c3dbfcdf064a84c184041908e",
+      "src/arm_exp.hpp": "9182b044d70b602e2710756bd2298d683f6453635bea8e420251ffd2b610fd68",
+      "src/mega_backend.cpp": "ca1296d57026cf5ef3c8e4c79ffd1971174702b3eb9e0e452f7c5a410d338a44",
+      "tests/mega_bench.c": "cbaa7600d4987b60732212b4b2dbcd43f9d21e426caceafedc704ae897cb2295",
+      "scripts/prepare_mega.py": "57a47e1a618a00491ac32fcdfb6a195bb4fd798e7ee283e2d68ac8f71fdd9c4d"
+    }
+  }
+}
